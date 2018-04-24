@@ -1,6 +1,6 @@
 @echo off
-echo Running Docker for WMP. Please wait...
+echo Running Docker. Please wait...
 d:
-cd WMP
-PowerShell -Command "Set-ExecutionPolicy Unrestricted" >> "%TEMP%\DockerWMPStartupLog.txt" 2>&1 
-PowerShell D:\WMP\docker_start.ps1 >> "%TEMP%\DockerWMPStartupLog.txt" 2>&1
+cd DirPath\To\Your\Docker\Composer\Directory
+PowerShell -Command "Set-ExecutionPolicy Unrestricted" >> "%TEMP%\DockerStartupLog.txt" 2>&1 
+PowerShell D:\Your\DirPath\To\PowerShell\File\docker_start.ps1 >> "%TEMP%\DockerStartupLog.txt" 2>&1
